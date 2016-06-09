@@ -1,0 +1,8 @@
+{
+  "name": "jsy-evt-cal",
+  "version": "0.1.0",
+  "description": "jsy-evt-cal",
+  "dependencies": {
+    "js-yaml": "~3.6.1"
+  }
+}
