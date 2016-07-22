@@ -1,0 +1,11 @@
+
+// bootstrap customisations go before the bootstrap import
+// see here for what can be customised:
+//   http://getbootstrap.com/customize/#less-variables
+$navbar-default-bg: #a7e6ff;
+$navbar-border-radius: 0;
+$navbar-default-border: none;
+
+@import "bootstrap";
+// for gradients and animations, include: @import "bootstrap/theme";
+

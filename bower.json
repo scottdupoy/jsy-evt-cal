@@ -1,0 +1,19 @@
+{
+  "name": "jsy-evt-cal",
+  "description": "jsy-evt-cal",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/scottdupoy/jsy-evt-cal",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2",
+    "bootstrap-sass": "^3.3.6"
+  }
+}

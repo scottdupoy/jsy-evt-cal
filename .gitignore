@@ -34,4 +34,10 @@ node_modules
 
 # scott: hide live config
 config.yaml
+# scott: bower, bootstrap, sass stuff, etc
+bower_components
+public/css
+public/fonts
+# scott: vim .swp files
+*.swp
 

@@ -4,7 +4,6 @@ var https = require('https');
 var path = require('path');
 var fs = require('fs');
 var yaml = require('js-yaml');
-var sass = require('node-sass-middleware');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
@@ -41,15 +40,8 @@ app.use(session({
     },
     rolling: true,
 }));
-app.use(
-    sass({
-        src: path.join(__dirname, '/scss'),
-        dest: path.join(__dirname, '/public/scss'),
-        prefix: '/scss',
-        debug: false,
-    })
-);
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/bower_components', express.static(path.join(__dirname, 'bower_components')));
 
 // routes
 app.get('/', routes.getHomeRoute());

@@ -5,11 +5,14 @@
   "dependencies": {
     "js-yaml": "~3.6.1",
     "express": "~4.14.0",
-    "node-sass-middleware": "~0.9.8",
     "cookie-parser": "~1.4.3",
     "body-parser": "~1.15.2",
     "method-override": "~2.3.6",
     "express-session": "~1.14.0",
     "ejs": "~2.4.2"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "gulp-sass": "~2.3.2"
   }
 }
